@@ -1,5 +1,6 @@
 public class practice1{
   public static void main(String[] arg){
-    System.out.println("Hello World");
+    String msg = "Hello Wold";
+    System.out.println(msg);
   }
 }
