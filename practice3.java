@@ -1,6 +1,6 @@
 public class practice3{
   public static void main(String[] args){
-    int score = 70;
+    int score = 90;
     if(80 < score){
       System.out.println("Great!!");
     } else if(60 < score){
@@ -8,5 +8,8 @@ public class practice3{
     } else{
       System.out.println("Bad..");
     }
+
+    String msg = 80 < score ? "aaa" : "bbb";
+    System.out.println(msg);
   }
 }
