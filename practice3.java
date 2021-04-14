@@ -27,5 +27,11 @@ public class practice3{
         System.out.println("wrong signal");
         break;
     }
+
+    int i = 0;
+    while(i < 10){
+      System.out.println(i);
+      i++;
+    }
   }
 }
