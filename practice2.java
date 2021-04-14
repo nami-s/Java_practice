@@ -16,5 +16,9 @@ public class practice2{
     System.out.println(y);
     y += 1;
     System.out.println(y);
+
+    String s;
+    s = "hello" + "world";    // 文字列の連結
+    System.out.println(s);
   }
 }
