@@ -39,5 +39,9 @@ public class practice3{
       System.out.println(ii);
       ii++;
     } while(ii < 10);
+
+    for(int a = 0; a < 10; a++){
+      System.out.println(a);
+    }
   }
 }
