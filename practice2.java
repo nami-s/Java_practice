@@ -10,5 +10,11 @@ public class practice2{
     System.out.println(x);    // 6
     x--;
     System.out.println(x);    // 5
+
+    int y = 6;
+    y = y + 1;
+    System.out.println(y);
+    y += 1;
+    System.out.println(y);
   }
 }
