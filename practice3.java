@@ -50,5 +50,12 @@ public class practice3{
       }
       System.out.println(b);
     }
+
+    for(int c = 0; c < 10; c++){
+      if(c == 5){
+        continue;
+      }
+      System.out.println(c);
+    }
   }
 }
