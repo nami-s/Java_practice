@@ -43,5 +43,12 @@ public class practice3{
     for(int a = 0; a < 10; a++){
       System.out.println(a);
     }
+
+    for(int b = 0; b < 10; b++){
+      if(b == 5){
+        break;
+      }
+      System.out.println(b);
+    }
   }
 }
