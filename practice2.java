@@ -20,5 +20,13 @@ public class practice2{
     String s;
     s = "hello" + "world";    // 文字列の連結
     System.out.println(s);
+
+    double d = 52343.231;
+    int e = (int)d;
+    System.out.println(e);
+
+    int n = 10;
+    double m = (double)n / 4;
+    System.out.println(m);
   }
 }
