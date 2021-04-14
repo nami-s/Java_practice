@@ -33,5 +33,11 @@ public class practice3{
       System.out.println(i);
       i++;
     }
+
+    int ii = 0;
+    do {
+      System.out.println(ii);
+      ii++;
+    } while(ii < 10);
   }
 }
