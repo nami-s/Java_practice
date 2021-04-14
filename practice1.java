@@ -1,7 +1,7 @@
 public class practice1{
   public static void main(String[] arg){
     char a = 'A';    // 文字
-    String msg = "Hello Wold!!";    // 文字列
+    String msg = "Hello Wo\nld\t!!";    // 文字列    // 文字列で使用できる特殊文字
     int x = 10;    // 整数（主流）
     long y = 77777777L;    // 整数はbyte short int longがある
     double d = 23423.344;    // 浮動小数点（主流）
