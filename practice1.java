@@ -8,5 +8,11 @@ public class practice1{
     float f = 33.33F;    // 浮動小数点
     boolean flag = true;    // 論理値
     System.out.println(msg);
+    System.out.println(a);
+    System.out.println(x);
+    System.out.println(y);
+    System.out.println(d);
+    System.out.println(f);
+    System.out.println(flag);
   }
 }
