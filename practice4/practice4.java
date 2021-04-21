@@ -29,6 +29,7 @@ public class practice4 {
       System.out.println(sales3[i]);
     }
 
+    // 上のfor文をさらに省略させた記述
     int[] sales4 = {700, 400, 500};
     for(int sale : sales4){
       System.out.println(sale);
