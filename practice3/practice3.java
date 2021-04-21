@@ -1,3 +1,5 @@
+package practice3;
+
 public class practice3{
   public static void main(String[] args){
     int score = 90;
