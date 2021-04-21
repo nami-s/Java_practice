@@ -17,11 +17,11 @@ public class practice4 {
 
     // 配列をまとめて初期化(宣言と初期化を分ける方法)
     int[] sales1;
-    sales1 = new int[] { 100, 200, 300};
+    sales1 = new int[] {100, 200, 300};
     System.out.println(sales1[1]);
 
     // 配列をまとめて初期化（宣言と初期化を分けない方法）
-    int[] sales2 = { 100, 200, 300};
+    int[] sales2 = {100, 200, 300};
     System.out.println(sales2[1]);
   }
 }
