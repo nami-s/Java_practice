@@ -1,5 +1,13 @@
 package practice5;
 
+class User{  // クラスの作成
+  String name = "me";  // フィールド（クラスに属する変数のこと）
+
+  void sayHi(){    // メソッドの作成
+    System.out.println("Hi!!");
+  }
+}
+
 public class practice5 {
   public static void sayHello(String name){    // メソッドの作成
     System.out.println("Hello " + name);
@@ -18,5 +26,10 @@ public class practice5 {
     sayHello();    // 引数がない場合のsayHelloのメソッドの呼び出し
     String msg = sayHi("Yamada");    // 返り値の受け取り
     System.out.println(msg);
+
+    User tom;    // User型を宣言
+    tom = new User();    // 配列と同じようにnewをして領域を確保
+    System.out.println(tom.name);
+    tom.sayHi();
   }
 }
