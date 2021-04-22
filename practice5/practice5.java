@@ -8,7 +8,7 @@ class User{  // クラスの作成
   }
 
   User(){    // constructorのオーバーロード
-    this.name = "me";
+    this("me");
   }
 
   void sayHi(){    // メソッドの作成
