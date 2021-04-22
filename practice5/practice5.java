@@ -7,6 +7,10 @@ class User{  // クラスの作成
     this.name = name;
   }
 
+  User(){    // constructorのオーバーロード
+    this.name = "me";
+  }
+
   void sayHi(){    // メソッドの作成
     System.out.println("Hi!!" + this.name);
   }
@@ -32,7 +36,7 @@ public class practice5 {
     System.out.println(msg);
 
     User tom;    // User型を宣言
-    tom = new User("Tom");    // 配列と同じようにnewをして領域を確保
+    tom = new User();    // 配列と同じようにnewをして領域を確保
     System.out.println(tom.name);
     tom.sayHi();
   }
