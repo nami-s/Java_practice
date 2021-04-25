@@ -4,9 +4,18 @@ class User{
   String name;
   private static int count = 0;  // クラス変数
 
-  public User(String name){
+  static{    // staticイニシャライザ
+    System.out.println("Static initializer");
+  }
+
+  {    // インスタンスイニシャライザ
+    System.out.println("instances initializer");
+  }
+
+  public User(String name){    // コンストラクタ
     this.name = name;
     User.count++;
+    System.out.println("Constructor");
   }
 
   public static void getInfo(){    // クラスメソッド
