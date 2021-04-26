@@ -1,7 +1,7 @@
 package practice6;
 
 class User{
-  private String name;
+  protected String name;
   private int score;
 
   public User(String name, int score){
